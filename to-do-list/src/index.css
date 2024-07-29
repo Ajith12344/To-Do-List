@@ -1,0 +1,30 @@
+/* Add this to your styles if not already present */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply max-w-4xl mx-auto;
+}
+
+.task-item {
+  @apply bg-white shadow-md rounded-lg p-4 mb-4;
+}
+
+.task-header {
+  @apply flex justify-between items-center;
+}
+
+.task-buttons {
+  @apply flex space-x-2;
+}
+
+.task-details {
+  @apply mt-2;
+  & p {
+    @apply text-gray-600;
+  }
+  .timestamp {
+    @apply text-sm text-gray-400;
+  }
+}
