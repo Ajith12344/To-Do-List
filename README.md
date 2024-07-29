@@ -19,3 +19,8 @@ This is a Todo List application built with React and integrated with MongoDB Atl
    ```bash
    git clone https://github.com/Ajith12344/To-Do-List.git
    cd todo-list-app
+   npm start
+
+   cd ..
+   cd .\backend\
+   node server.js
